@@ -3,7 +3,7 @@ name: Integration
 on:
   push:
     branches:
-      - mmaa
+      - mma
 
 permissions:
   contents: read
