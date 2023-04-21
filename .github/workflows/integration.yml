@@ -1,14 +1,14 @@
 name: Integration
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-      - develop
-    types: [ opened, synchronize ]
+#on:
+ # push:
+  #  branches:
+   #   - main
+#  pull_request:
+ #   branches:
+  #    - main
+   #   - develop
+    #types: [ opened, synchronize ]
 
 permissions:
   contents: read
