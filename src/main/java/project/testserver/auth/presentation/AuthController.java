@@ -25,6 +25,7 @@ public class AuthController {
     ResponseEntity<String> end() {
         System.out.println("1");
         System.out.println("1");
+        System.out.println("1");
         return ResponseEntity.ok("end");
     }
 }
