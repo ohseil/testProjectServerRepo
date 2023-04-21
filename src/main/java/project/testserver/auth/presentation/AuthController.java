@@ -23,7 +23,7 @@ public class AuthController {
 
     @GetMapping(value = "/end")
     ResponseEntity<String> end() {
-        System.out.println();
+        System.out.println("1");
         return ResponseEntity.ok("end");
     }
 }
