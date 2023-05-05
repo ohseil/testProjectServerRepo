@@ -29,6 +29,6 @@ public class AuthController {
 
     @GetMapping(value = "/test/get")
     public void test() {
-
+        System.out.println("기능 구현");
     }
 }
