@@ -26,4 +26,9 @@ public class AuthController {
         System.out.println("1");
         return ResponseEntity.ok("end");
     }
+
+    @GetMapping(value = "/test/get")
+    public void test() {
+
+    }
 }
